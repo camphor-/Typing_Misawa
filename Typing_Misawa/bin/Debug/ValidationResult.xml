@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="PASS" VERSION="3.1" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="学生団体CAMPHOR-" OSVERSION="6.3.9600.0" OS="Microsoft Windows 8.1 Pro" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="1041" VALIDATION_TYPE="UI" ReportGenerationTime="2013/12/21 22:04:52" ID="0afd6b9ee23f9a6a7eceeea9ddd8259a">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="クリーンに元の状態に戻すことが可能かどうかのテスト" RATIONALE="クリーンで元に戻すことが可能なインストールにより、ユーザーはシステム上でアプリケーションを適切に管理 (展開と削除) できます。" />
+    <REQUIREMENT NUMBER="2" TITLE="正しいフォルダーにインストールするテスト" RATIONALE="Windows によって、プログラムとソフトウェア コンポーネント、共有アプリケーション データ、およびユーザー固有のアプリケーション データの保存先として、ファイル システム内の特定の保存場所が指定されます。" />
+    <REQUIREMENT NUMBER="3" TITLE="デジタル署名されたファイルのテスト" RATIONALE="Authenticode デジタル署名により、正規のソフトウェアであることを確認できます。また、ウイルス感染などによりファイルが改ざんされたかどうかを検出できます。" />
+    <REQUIREMENT NUMBER="4" TITLE="x64 Windows のサポートのテスト" RATIONALE="64 ビット バージョンの Windows との互換性を維持するには、アプリケーションが 64 ビット (または少なくとも 32 ビット) の Windows ベース アプリケーションをネイティブにサポートし、64 ビット バージョンの Windows 上でシームレスに動作することが必要になります。" />
+    <REQUIREMENT NUMBER="5" TITLE="OS バージョン チェックのテスト" RATIONALE="アプリケーションでバージョン チェック (== 5.1) を行わないでください。特定の機能が必要な場合は、その機能が使用できるかどうかをチェックしてください。Windows XP が必要な場合は、Windows XP 以降 (&gt;= 5.1) かどうかをチェックしてください。このように、検出コードは Windows の今後のバージョンでも引き続き動作します。ドライバーのインストーラーおよびアンインストール モジュールでは、OS のバージョン チェックを行いません。" />
+    <REQUIREMENT NUMBER="6" TITLE="ユーザー アカウント制御 (UAC) のテスト" RATIONALE="大部分のアプリケーションでは、実行時に管理者権限を要求せず、標準ユーザーとして問題なく実行できるようにします。Windows アプリケーションでは、マニフェスト (埋め込みまたは外部) を用意して実行レベルを定義し、アプリケーションの実行に必要な権限を OS に通知できるようにする必要があります。" />
+    <REQUIREMENT NUMBER="7" TITLE="システムの再起動マネージャーのメッセージに従う" RATIONALE="重大なシャットダウンが発生した場合、WM_QUERYENDSESSION に FALSE を返すアプリケーションは、WM_ENDSESSION が送信されて閉じられますが、WM_QUERYENDSESSION への応答でタイムアウトしたアプリケーションは、終了します。" />
+    <REQUIREMENT NUMBER="8" TITLE="セーフ モードのテスト" RATIONALE="既定では、Windows にプリインストールされていないドライバーとサービスの大部分は、セーフ モードでは起動されません。システムの基本動作や、診断および回復に必要でないかぎり、これらのドライバーとサービスは無効なままにしておきます。" />
+    <REQUIREMENT NUMBER="9" TITLE="マルチユーザー セッションのテスト" RATIONALE="Windows ユーザーが同時実行セッションを実行する際に、競合や中断が発生しないようにします。ローカルとリモートのいずれであっても、アプリケーションが複数のセッションで実行されているときに、アプリケーションの通常の機能に影響が発生しないことを徹底する必要があります。アプリケーションの設定およびデータ ファイルは、異なるユーザー間で保持されないようにします。ユーザーのプライバシーと設定は、ユーザーのセッションとは切り離しておきます。" />
+    <REQUIREMENT NUMBER="10" TITLE="クラッシュとハングのテスト" RATIONALE="クラッシュやハングなどのアプリケーション エラーが発生すると、ユーザーの作業が中断され、フラストレーションの原因になります。このようなエラーを削減することが、アプリケーションの安定性と信頼性を向上させ、全体としてより良質なアプリケーションの提供につながります。">
+      <TEST INDEX="21" NAME="クラッシュとハング" DESCRIPTION="テスト プロセス中にクラッシュまたはハングさせないでください。" EXECUTIONTIME="00h:00m:05s.75ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="互換性と復元のテスト" RATIONALE="アプリケーションが互換性のない方法で動作していることが Windows によって検出された場合、アプリケーションが正しく動作し、ユーザーが快適に操作できるようにするために、互換性修正プログラムが適用されます。互換性修正プログラムは、レガシ アプリケーションが Windows 上で正しく動作することのみを目的に提供されているため、アプリケーションがその動作に依存しないようにする必要があります。" />
+    <REQUIREMENT NUMBER="12" TITLE="アプリ マニフェストの準拠のテスト" RATIONALE="パッケージ マニフェストに、1 つまたは複数の必須属性がありませんでした。">
+      <TEST INDEX="31" NAME="アプリ マニフェスト" DESCRIPTION="アプリ マニフェストには、すべての必須フィールドに有効なエントリを含める必要があります。" EXECUTIONTIME="00h:00m:05s.77ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows セキュリティのベスト プラクティスのテスト" RATIONALE="アプリケーションが Windows の既定のセキュリティ設定を変更しないようにします。" />
+    <REQUIREMENT NUMBER="14" TITLE="Windows セキュリティ機能のテスト" RATIONALE="アプリケーションは Windows セキュリティ機能をオプトインする必要があります。">
+      <TEST INDEX="33" NAME="Binary Analyzer" DESCRIPTION="バイナリ上で有効にされているセキュリティ機能を分析します" EXECUTIONTIME="00h:00m:01s.91ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="70" NAME="禁止されたファイルのアナライザー" DESCRIPTION="安全でない既知のファイルを検出するアプリケーションの分析" EXECUTIONTIME="00h:00m:03s.81ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="プライベート コード署名" DESCRIPTION="アプリで、プライベート コード署名キー ファイルをパッケージしないでください。" EXECUTIONTIME="00h:00m:05s.76ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="サポートされている API のテスト" RATIONALE="アプリケーションは、Windows ストア アプリ用 Windows SDK によって許可された API のみを参照する必要があります。">
+      <TEST INDEX="38" NAME="サポートされている API" DESCRIPTION="Windows ストア アプリは、サポートされているプラットフォーム API のみを使用する必要があります。" EXECUTIONTIME="00h:00m:04s.53ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="パフォーマンスのテスト" RATIONALE="アプリケーション起動時および中断時の速度と応答性を確保する一方で、システム リソース (CPU、ファイル IO、メモリなど) の消費量を適切に保ち、まだ開かれていないアプリケーション間で切り替えとマルチタスク処理を高速に実行できるようにする必要があります。">
+      <TEST INDEX="50" NAME="バイトコードの生成" DESCRIPTION="バイト コードの生成は、HTML5 Windows ストア アプリを含むパッケージで正常に完了する必要があります。" EXECUTIONTIME="00h:00m:05s.90ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="60" NAME="最適化されたバインディング参照" DESCRIPTION="バインディングを使用するとき、WinJS.Binding.optimizeBindingReferences を true に設定して、メモリ使用量を最適化する必要があります。" EXECUTIONTIME="00h:00m:08s.37ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="起動パフォーマンス" DESCRIPTION="アプリケーションは、CPU、ファイル IO、およびメモリの使用率を適切に保ちながら迅速に起動できる必要があります" EXECUTIONTIME="00h:02m:34s.69ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="中断パフォーマンス" DESCRIPTION="アプリケーションは、CPU およびファイル IO の使用率を適切に保ちながら迅速に中断できる必要があります" EXECUTIONTIME="00h:02m:39s.14ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="アプリ マニフェスト リソースのテスト" RATIONALE="アプリ パッケージ マニフェストには、アプリ パッケージング仕様とアプリ マニフェスト スキーマに従って、resources.pri ファイル内で定義された有効なリソースを含める必要があります。">
+      <TEST INDEX="45" NAME="アプリ リソースの検証" DESCRIPTION="パッケージには resources.pri ファイル内で定義された有効なリソースを含める必要があります。" EXECUTIONTIME="00h:00m:01s.23ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="ブランド検証" DESCRIPTION="アプリで、Windows SDK サンプルまたは Visual Studio によってパックされた既定のイメージを使用しないでください。" EXECUTIONTIME="00h:00m:11s.93ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="デバッグ構成のテスト" RATIONALE="アプリによるデバッグ バイナリのインストールは禁止されています。">
+      <TEST INDEX="46" NAME="デバッグの構成" DESCRIPTION="アプリによるデバッグ バイナリのインストールは禁止されています。" EXECUTIONTIME="00h:00m:06s.64ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="ファイルのエンコードのテスト" RATIONALE="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。">
+      <TEST INDEX="49" NAME="UTF-8 ファイル エンコード" DESCRIPTION="HTML5 Windows ストア アプリを含むパッケージは、ファイルが正しくエンコードされている必要があります。" EXECUTIONTIME="00h:00m:06s.65ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D 機能テスト" RATIONALE="アプリは Direct3D 機能を正しく使用する必要があります。">
+      <TEST INDEX="51" NAME="Direct3D 機能レベルのサポート" DESCRIPTION="アプリケーションは、Direct3D 機能レベル 9.1 のハードウェア上のコンテンツを表示する必要があります。" EXECUTIONTIME="00h:00m:08s.25ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="71" NAME="Direct3D の中断後のトリム" DESCRIPTION="アプリケーションは、中断通知の処理時に作成した Direct3D デバイスで IDXGIDevice3::Trim() を呼び出す必要があります。" EXECUTIONTIME="00h:00m:09s.32ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="アプリ機能テスト" RATIONALE="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。">
+      <TEST INDEX="52" NAME="特殊用途の機能" DESCRIPTION="特殊用途の機能を宣言するパッケージでは、オンボード プロセス時に理由を指定する必要があります。" EXECUTIONTIME="00h:00m:07s.43ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows ランタイム メタデータの検証" RATIONALE="メタデータは、すべての生成ソースにわたって整合性および一貫性を維持している必要があります。">
+      <TEST INDEX="56" NAME="ExclusiveTo 属性テスト" DESCRIPTION="クラスは、別のクラスに対して ExclusiveTo とマークされたインターフェイスを実装してはなりません。" EXECUTIONTIME="00h:00m:08s.73ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="型のロケーション テスト" DESCRIPTION="一致する名前空間が最も長いメタデータ ファイル内に、型が定義されている必要があります。" EXECUTIONTIME="00h:00m:07s.97ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="型名の大文字小文字の区別テスト" DESCRIPTION="名前空間および型名は、大文字/小文字の違いだけで異なるものにすることはできません。" EXECUTIONTIME="00h:00m:08s.39ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="型名の正確性テスト" DESCRIPTION="システム型に限り、Windows 名前空間に存在できます。グローバル名前空間には、どの型も存在できません。" EXECUTIONTIME="00h:00m:07s.99ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="一般的なメタデータ正確性テスト" DESCRIPTION="メタデータ ファイルは、有効かつ正確であるためにさまざまな要件を満たしている必要があります。" EXECUTIONTIME="00h:00m:08s.75ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="プロパティ テスト" DESCRIPTION="書き込み専用およびインデクサー プロパティを使用できない可能性があります。対応する getter メソッドと setter メソッドの型が一致している必要があります。" EXECUTIONTIME="00h:00m:07s.35ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="25" TITLE="パッケージのサニティ テスト" RATIONALE="アプリ パッケージのコンテンツを検証して、正確性を確認します。">
+      <TEST INDEX="63" NAME="プラットフォームに適したファイル" DESCRIPTION="アプリでは、ターゲット プロセッサのアーキテクチャに一致しないファイルをインストールしないようにする必要があります。" EXECUTIONTIME="00h:00m:12s.12ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="66" NAME="サポートされているディレクトリ構造のチェック" DESCRIPTION="パッケージ内の各ファイルについて、ファイル名の長さが MAX_PATH 未満であることを検証します。" EXECUTIONTIME="00h:00m:06s.45ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="26" TITLE="高 DPI サポート" RATIONALE="さまざまな高 DPI のディスプレイ設定で一貫して適切な UI の表示を実現するためには、アプリケーションを DPI 対応として設定する必要があります。" />
+    <REQUIREMENT NUMBER="27" TITLE="リソース使用量のテスト" RATIONALE="WinJS バックグラウンド タスクでは、close() を呼び出してリソースを解放する必要があります。">
+      <TEST INDEX="68" NAME="WinJS バックグラウンド タスクのテスト" DESCRIPTION="WinJS バックグラウンド タスクでは、close() を呼び出してリソースを解放する必要があります。" EXECUTIONTIME="00h:00m:10s.62ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="9329CAMPHOR-.29199B90BAB82" Type="Application" Source="AppxPackage" Publisher="CN=02A7ACBA-30DB-4738-8B9A-D332B9EF1F4F" Version="1.1.0.0" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\9329CAMPHOR-.29199B90BAB82_1.1.0.0_neutral__jnb6kx4qp1j4g" PathEvidenceId="0xa" RNP="0x1" DNP="0xd" EvidenceId="0xa" Id="00003048e19c55b3c0ac6bd9b3ed7be5cf5d00000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g" RNP="0x9" DNP="0xb" UniqueId="0xb" Id="0000dc45191be741b11b5be3d2fea0c9e3ea6fbceed5" />
+            <Directory Name="js" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js" RNP="0x9" DNP="0xb" UniqueId="0x11" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <WindowsStoreAppManifestIndicators>
+            <PackageManifest PackageFullName="9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g">
+              <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:build="http://schemas.microsoft.com/developer/appx/2012/build" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+                <Identity Name="9329CAMPHOR-.29199B90BAB82" Version="1.1.0.0" Publisher="CN=02A7ACBA-30DB-4738-8B9A-D332B9EF1F4F" ProcessorArchitecture="neutral" />
+                <Properties>
+                  <DisplayName>名言タイピング(ミサワ編)</DisplayName>
+                  <PublisherDisplayName>学生団体CAMPHOR-</PublisherDisplayName>
+                  <Logo>images\storelogo.png</Logo>
+                </Properties>
+                <Prerequisites>
+                  <OSMinVersion>6.3.0</OSMinVersion>
+                  <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+                </Prerequisites>
+                <Resources>
+                  <Resource Language="JA-JP" />
+                </Resources>
+                <Applications>
+                  <Application Id="App" StartPage="default.html">
+                    <m2:VisualElements DisplayName="名言タイピング(ミサワ編)" Description="ミサワの名言をタイピングしながら、タイピング力を向上させるアプリケーション" ForegroundText="dark" BackgroundColor="#FFFFFF" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+                      <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="#FFFFFF" />
+                      <m2:InitialRotationPreference>
+                        <m2:Rotation Preference="landscape" />
+                      </m2:InitialRotationPreference>
+                    </m2:VisualElements>
+                  </Application>
+                </Applications>
+                <Dependencies>
+                  <PackageDependency Name="Microsoft.WinJS.2.0" MinVersion="1.0.9600.16408" />
+                </Dependencies>
+              </Package>
+            </PackageManifest>
+          </WindowsStoreAppManifestIndicators>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="000079a60de07f02b09ac2f0483c70f40cd557be88e9">
+            <File Name="default.html" Id="0000db90263adbd30c926346b367076e8f639668a227" ShortName="DEFAUL~1.HTM" Size="0x4b3" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\default.html" LongPathHash="0000b60bf715dd706e1f1fef771814ddf3cd328c5306" UniqueId="0xc" />
+            <File Name="typing.js" Id="00006ae0d13e8d49299007d1ad5a8e1ec7faccba1f09" Size="0x1593" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js\typing.js" LongPathHash="0000731407eb4a2cb3f71111b9341eeb23c192098f64" UniqueId="0x14" />
+            <File Name="xtyle.min.js" Id="00006401c400024c900d9533c226de47266a94d2f81d" ShortName="XTYLEM~1.JS" Size="0xe04" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js\xtyle.min.js" LongPathHash="00003311f4445965487efdacfa23549f75f15394f18d" UniqueId="0x15" />
+            <File Name="jquery-2.0.3.min.js" Id="00000b1a78c68fb92fb8425307deb5c17a59174d0395" ShortName="JQUERY~1.JS" Size="0x146a5" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js\jquery-2.0.3.min.js" LongPathHash="0000a4f322edc73436a2ae1aa9cdd0c96c2e03ee6de3" UniqueId="0x13" />
+            <File Name="default.js" Id="0000c096d7087d013d32b5f6baa27f9a07e9d7fa7b82" Size="0x62f" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\js\default.js" LongPathHash="000075c8e59044ad33bc4ec2287267ccb49e4dd5f840" UniqueId="0x12" />
+            <File Name="resources.pri" Id="000084cb4ececa4c0d60ad03fd60f5927fd653f48792" ShortName="RESOUR~1.PRI" Size="0x1340" BinaryType="UNKNOWN" Created="12/21/2013 12:58:49" Modified="12/21/2013 12:58:49" Path="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\9329camphor-.29199b90bab82_1.1.0.0_neutral__jnb6kx4qp1j4g\resources.pri" LongPathHash="000086989232af6a307b911ff411041270c0b536b1ec" UniqueId="0xd" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="00003048e19c55b3c0ac6bd9b3ed7be5cf5d00000904" AnalysisVersion="1.60" DictionaryVersion="2.14" Type="Package" Id="9329CAMPHOR-.29199B90BAB82_1.1.0.0_neutral__jnb6kx4qp1j4g">
+      <AitFile ErrorCode="0" Name="jquery-2.0.3.min.js" Id="00000b1a78c68fb92fb8425307deb5c17a59174d0395">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="window" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="xtyle.min.js" Id="00006401c400024c900d9533c226de47266a94d2f81d">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="document.createElement" />
+          <AitFeature Name="document.getElementsByTagName" />
+          <AitFeature Name="location" />
+          <AitFeature Name="window.xtyle" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="typing.js" Id="00006ae0d13e8d49299007d1ad5a8e1ec7faccba1f09">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="window" />
+          <AitFeature Name="window.localStorage.getItem" />
+          <AitFeature Name="window.localStorage.setItem" />
+          <AitFeature Name="window.location.reload" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.js" Id="0000c096d7087d013d32b5f6baa27f9a07e9d7fa7b82">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="0000db90263adbd30c926346b367076e8f639668a227">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

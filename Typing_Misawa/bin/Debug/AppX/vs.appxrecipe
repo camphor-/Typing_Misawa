@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>Python</Machine>
+    <WindowsUser>CAMPHOR-</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9329CAMPHOR-.29199B90BAB82</PackageIdentityName>
+    <RegisteredManifestChecksum>B6D3096AA7AA7B0D1F2782AA048AADBC65B1943C004231E2FE26F68B53C4EE26</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9329CAMPHOR-.29199B90BAB82_1.1.0.0_neutral__jnb6kx4qp1j4g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9329CAMPHOR-.29199B90BAB82_jnb6kx4qp1j4g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9329CAMPHOR-.29199B90BAB82</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=02A7ACBA-30DB-4738-8B9A-D332B9EF1F4F</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-21T12:48:41.771</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\contents.json">
+      <PackagePath>contents.json</PackagePath>
+      <Modified>2013-12-21T12:05:50.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-07-21T12:19:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\css\main.css">
+      <PackagePath>css\main.css</PackagePath>
+      <Modified>2013-12-21T06:47:05.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\css\xtyle.min.css">
+      <PackagePath>css\xtyle.min.css</PackagePath>
+      <Modified>2013-12-21T06:47:16.758</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-12-21T12:03:29.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-21T12:40:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\misawa_150.png">
+      <PackagePath>images\misawa_150.png</PackagePath>
+      <Modified>2013-12-21T12:40:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\misawa_30.png">
+      <PackagePath>images\misawa_30.png</PackagePath>
+      <Modified>2013-12-21T12:40:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\misawa_300.png">
+      <PackagePath>images\misawa_300.png</PackagePath>
+      <Modified>2013-12-21T12:40:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\misawa_50.png">
+      <PackagePath>images\misawa_50.png</PackagePath>
+      <Modified>2013-12-21T12:40:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-21T12:40:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-21T12:42:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\splash_misawa.png">
+      <PackagePath>images\splash_misawa.png</PackagePath>
+      <Modified>2013-12-21T12:42:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-12-21T12:40:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa.png">
+      <PackagePath>img\misawa.png</PackagePath>
+      <Modified>2013-12-21T09:39:42.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_0.gif">
+      <PackagePath>img\misawa_0.gif</PackagePath>
+      <Modified>2013-12-21T10:17:06.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_1.gif">
+      <PackagePath>img\misawa_1.gif</PackagePath>
+      <Modified>2013-12-21T10:11:36.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_10.gif">
+      <PackagePath>img\misawa_10.gif</PackagePath>
+      <Modified>2013-12-21T11:40:37.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_11.gif">
+      <PackagePath>img\misawa_11.gif</PackagePath>
+      <Modified>2013-12-21T11:42:48.184</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_12.gif">
+      <PackagePath>img\misawa_12.gif</PackagePath>
+      <Modified>2013-12-21T11:46:46.778</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_13.gif">
+      <PackagePath>img\misawa_13.gif</PackagePath>
+      <Modified>2013-12-21T11:47:24.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_14.gif">
+      <PackagePath>img\misawa_14.gif</PackagePath>
+      <Modified>2013-12-21T11:48:28.006</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_2.gif">
+      <PackagePath>img\misawa_2.gif</PackagePath>
+      <Modified>2013-12-21T10:11:20.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_3.gif">
+      <PackagePath>img\misawa_3.gif</PackagePath>
+      <Modified>2013-12-21T10:12:25.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_4.gif">
+      <PackagePath>img\misawa_4.gif</PackagePath>
+      <Modified>2013-12-21T10:12:44.158</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_5.gif">
+      <PackagePath>img\misawa_5.gif</PackagePath>
+      <Modified>2013-12-21T10:12:59.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_6.gif">
+      <PackagePath>img\misawa_6.gif</PackagePath>
+      <Modified>2013-12-21T10:13:21.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_7.gif">
+      <PackagePath>img\misawa_7.gif</PackagePath>
+      <Modified>2013-12-21T10:13:37.129</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_8.gif">
+      <PackagePath>img\misawa_8.gif</PackagePath>
+      <Modified>2013-12-21T10:14:20.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\img\misawa_9.gif">
+      <PackagePath>img\misawa_9.gif</PackagePath>
+      <Modified>2013-12-21T10:14:34.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-12-21T06:45:51.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\js\jquery-2.0.3.min.js">
+      <PackagePath>js\jquery-2.0.3.min.js</PackagePath>
+      <Modified>2013-12-21T06:46:07.762</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\js\typing.js">
+      <PackagePath>js\typing.js</PackagePath>
+      <Modified>2013-12-21T11:56:47.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\js\xtyle.min.js">
+      <PackagePath>js\xtyle.min.js</PackagePath>
+      <Modified>2013-12-21T06:46:33.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-12-21T12:48:41.580</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bin\Release\resources.pri
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bin\Release\AppxManifest.xml
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bin\Release\Typing_Misawa.build.appxrecipe
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\priconfig.xml
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\priconfig.xml.intermediate
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\layout.resfiles
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\layout.resfiles.intermediate
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\resources.resfiles
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\resources.resfiles.intermediate
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\pri.resfiles
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\pri.resfiles.intermediate
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\qualifiers.txt
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\qualifiers.txt.intermediate
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\MultipleQualifiersPerDimensionFound.txt
+c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Release\ProjectArchitectures.txt
