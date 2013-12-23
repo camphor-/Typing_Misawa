@@ -13,3 +13,18 @@ c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Mis
 c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Debug\qualifiers.txt.intermediate
 c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\camphor-\documents\visual studio 2013\Projects\Typing_Misawa\Typing_Misawa\bld\Debug\ProjectArchitectures.txt
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bin\Debug\ReverseMap\resources.pri
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bin\Debug\AppxManifest.xml
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bin\Debug\Typing_Misawa.build.appxrecipe
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\priconfig.xml
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\priconfig.xml.intermediate
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\layout.resfiles
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\layout.resfiles.intermediate
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\resources.resfiles
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\resources.resfiles.intermediate
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\pri.resfiles
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\pri.resfiles.intermediate
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\qualifiers.txt
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\qualifiers.txt.intermediate
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\kkouh_000\Documents\GitHub\Typing_Misawa\Typing_Misawa\bld\Debug\ProjectArchitectures.txt

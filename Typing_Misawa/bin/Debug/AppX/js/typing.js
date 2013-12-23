@@ -23,8 +23,8 @@ pos = 0;
 
 startTime = new Date();
 
-var max_question_num = 5;
-var all_question_num = 15;
+var max_question_num = 1;
+var all_question_num = 1;
 var question_array = random_num(max_question_num, all_question_num);
 console.log(question_array);
 var question_length = random_num(max_question_num, all_question_num).length;
@@ -137,25 +137,45 @@ function changeforMSec(resultTime) {
 $(window).keydown(function (e) {
   var letter;
   letter = keycode_dictionary[e.keyCode];
+  is_shift = e.shiftKey;
+  //大文字判定 -1
+  is_large_word = typing[pos].indexOf(typing[pos].toLowerCase());
+  console.log(e.keyCode);
   if (letter) {
-      if (letter === typing[pos]) {
-      pos++;
-      if (pos === typing.length) {
-          //window.location.reload();
-          if (question_clear_num != (question_length - 1)) {
-              init_state();
-              question_clear_num += 1;
-              get_question(question_array[question_clear_num]);
-          } else {
-              show_result();
-          }
+      if (is_large_word == -1 && is_shift == 1) {
+          console.log('Large word');
+          console.log(typing[pos]);
+          small_letter = typing[pos].toLowerCase();
+          console.log(letter + ':' + small_letter);
+          check_word(letter, small_letter);
       } else {
-        setTypingPosition(pos);
+          check_word(letter, typing[pos]);
       }
-    }
   }
   return true;
 });
+
+function check_word(letter, check_letter) {
+
+    if (letter ===check_letter) {
+        pos++;
+        if (pos === typing.length) {
+            //window.location.reload();
+            if (question_clear_num != (question_length - 1)) {
+                init_state();
+                question_clear_num += 1;
+                get_question(question_array[question_clear_num]);
+            } else {
+                show_result();
+            }
+        } else {
+            setTypingPosition(pos);
+        }
+    }
+
+
+
+}
 
 $(function () {
     $("#result").hide();
@@ -208,6 +228,7 @@ keycode_dictionary = {
   88: "x",
   89: "y",
   90: "z",
+  32:" ",
   188: ",",
   189: "-",
   190: "."
